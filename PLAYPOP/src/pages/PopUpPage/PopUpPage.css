@@ -1,1 +1,434 @@
-/* 임의로 생성한 파일 */
+.child {
+  width: 2.5rem;
+  height: 2.5rem;
+  position: relative;
+  border-radius: 50%;
+  object-fit: contain;
+  display: none;
+}
+.item {
+  width: 4.938rem;
+  height: 1.875rem;
+  border-radius: 5px;
+  background-color: #141414;
+}
+.b,
+.b1,
+.h3,
+.item {
+  position: relative;
+  display: none;
+}
+.b {
+  width: 4.125rem;
+}
+.b1,
+.h3 {
+  min-width: 4.125rem;
+}
+.h3 {
+  margin: 0;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 6.75rem;
+}
+.gallery-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0.125rem;
+}
+.gallery-image-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.gallery,
+.gallery-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.gallery-wrapper {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  gap: 3.812rem;
+}
+.gallery {
+  width: 84.938rem;
+  height: 34.625rem;
+  flex-direction: row;
+  padding: 0 2.75rem 0.875rem;
+  box-sizing: border-box;
+}
+.image-pair-icon,
+.image-pair-icon1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.image-container,
+.images {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.images {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  gap: 5.437rem;
+}
+.image-container {
+  width: 85.063rem;
+  height: 73.531rem;
+  flex-direction: row;
+  padding: 0 2.875rem 3.218rem;
+  margin-bottom: 0.1rem;
+  box-sizing: border-box;
+}
+.separator,
+.separator-child {
+  align-self: stretch;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.separator-child {
+  flex: 1;
+  position: relative;
+  border-top: 3px solid rgba(249, 226, 94, 0.49);
+}
+.separator {
+  height: 0.531rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0.343rem;
+}
+.h31 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 5.5rem;
+}
+.image-2-icon {
+  width: 60.188rem;
+  height: 32.938rem;
+  position: relative;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.pin-duotone-line-icon {
+  height: 2.563rem;
+  width: 2.375rem;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.title-elements {
+  width: 14.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.location-container-child {
+  width: 8.694rem;
+  height: 3.156rem;
+  position: relative;
+  border-radius: 3px;
+  background-color: rgba(217, 217, 217, 0.9);
+  display: none;
+}
+.b2 {
+  flex: 1;
+  position: relative;
+  z-index: 3;
+}
+.location-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0.062rem;
+}
+.blank {
+  position: relative;
+  font-size: 0.563rem;
+  color: #6f6f6f;
+  display: inline-block;
+  min-width: 6.25rem;
+  z-index: 2;
+}
+.location-container,
+.location-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.location-container {
+  flex: 1;
+  border-radius: 3px;
+  background-color: rgba(217, 217, 217, 0.9);
+  flex-direction: column;
+  padding: 0.468rem 0.687rem 0.706rem;
+  gap: 0.231rem;
+  z-index: 1;
+}
+.location-info {
+  width: 8.694rem;
+  flex-direction: row;
+  padding: 0 0 0.656rem;
+  box-sizing: border-box;
+}
+.pin-duotone-line-icon1 {
+  height: 2.563rem;
+  width: 2.375rem;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.title-elements1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 3.125rem;
+}
+.frame-child {
+  width: 2.625rem;
+  height: 1.438rem;
+  position: absolute;
+  margin: 0 !important;
+  right: 18.25rem;
+  bottom: 14rem;
+  z-index: 2;
+}
+.details-wrapper,
+.image-2-parent {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image-2-parent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 14.875rem 12.5rem 7.187rem;
+  position: relative;
+  gap: 0.968rem;
+  background-image: url(/public/image-2@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.details-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 0.062rem;
+}
+.pin-alt-fill-icon {
+  height: 1.625rem;
+  width: 1.556rem;
+  position: relative;
+  object-fit: cover;
+  min-height: 1.625rem;
+}
+.div1 {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.address,
+.location {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.location {
+  flex-direction: column;
+  padding: 0.062rem 0 0;
+}
+.address {
+  flex-direction: row;
+  gap: 0.318rem;
+  font-size: 1rem;
+  color: #bbb;
+}
+.details,
+.details-container {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.details-container {
+  width: 60.25rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.437rem;
+}
+.details {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 0.75rem;
+  color: #696969;
+}
+.info-container,
+.info-container-wrapper {
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.info-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.125rem;
+}
+.info-container-wrapper {
+  width: 75rem;
+  flex-direction: row;
+  padding: 0 3.75rem 1.375rem;
+  box-sizing: border-box;
+}
+.body,
+.content,
+.div,
+.info-container-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.body {
+  width: 86rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 4.062rem;
+  max-width: 100%;
+  text-align: left;
+  font-size: 1.375rem;
+  color: #fff;
+  font-family: "Noto Sans KR";
+}
+.content,
+.div {
+  box-sizing: border-box;
+}
+.content {
+  width: 118.375rem;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 1.25rem;
+  max-width: 100%;
+}
+.div {
+  width: 100%;
+  position: relative;
+  background-color: #000;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 6.25rem;
+  gap: 4.5rem;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 0.75rem;
+  color: #fff;
+  font-family: "Noto Sans KR";
+}
+@media screen and (max-width: 1250px) {
+  .gallery,
+  .image-container {
+    padding-left: 1.375rem;
+    padding-right: 1.375rem;
+    box-sizing: border-box;
+  }
+  .image-container {
+    padding-left: 1.438rem;
+    padding-right: 1.438rem;
+    padding-bottom: 9.875rem;
+  }
+  .info-container-wrapper {
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .image-2-parent {
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
+    box-sizing: border-box;
+  }
+  .div {
+    gap: 2.25rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .gallery-wrapper {
+    gap: 1.875rem;
+  }
+  .images {
+    gap: 1.188rem;
+  }
+  .image-container {
+    padding-bottom: 6.438rem;
+    box-sizing: border-box;
+  }
+  .image-2-parent {
+    padding: 9.688rem 3.125rem 4.688rem;
+    box-sizing: border-box;
+  }
+  .info-container {
+    gap: 1.063rem;
+  }
+  .body {
+    gap: 2rem;
+  }
+  .div {
+    gap: 1.125rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .h3 {
+    font-size: 1.125rem;
+  }
+  .gallery-wrapper {
+    gap: 0.938rem;
+  }
+  .h31 {
+    font-size: 1.125rem;
+  }
+  .body {
+    gap: 1rem;
+  }
+}

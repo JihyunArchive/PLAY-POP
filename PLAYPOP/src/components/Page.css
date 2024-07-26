@@ -1,0 +1,123 @@
+.page-child {
+  align-self: stretch;
+  width: 120rem;
+  position: relative;
+  background-color: #000;
+  display: none;
+  max-width: 100%;
+}
+.background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+}
+.menu-icon {
+  height: 2.688rem;
+  width: 2.688rem;
+  position: relative;
+}
+.p {
+  color: #f9e25e;
+}
+.l {
+  color: #f2635d;
+}
+.a {
+  color: #23626b;
+}
+.span {
+  color: #fff;
+}
+.o {
+  color: #9ed6eb;
+}
+.play-pop-txt {
+  line-break: anywhere;
+  width: 100%;
+}
+.play-pop {
+  text-decoration: none;
+  height: 3rem;
+  width: 14.25rem;
+  position: relative;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  color: inherit;
+}
+.menu-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.562rem;
+  z-index: 1;
+}
+.bell-icon,
+.favorite-icon,
+.search-icon {
+  height: 2.188rem;
+  width: 2.188rem;
+  position: relative;
+  min-height: 2.188rem;
+}
+.frame-wrapper,
+.search-parent {
+  display: flex;
+  align-items: flex-start;
+}
+.search-parent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1.25rem;
+  z-index: 1;
+}
+.frame-wrapper {
+  width: 9.688rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0.25rem 0 0;
+  box-sizing: border-box;
+}
+.background-parent,
+.page {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.background-parent {
+  flex: 1;
+  justify-content: space-between;
+  padding: 1.375rem 3.5rem 1rem 3.25rem;
+  box-sizing: border-box;
+  position: relative;
+  gap: 1.25rem;
+  z-index: 1;
+}
+.page {
+  align-self: stretch;
+  background-color: #000;
+  justify-content: flex-start;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: 3rem;
+  color: #369cca;
+  font-family: "Cafe24 Meongi B";
+}
+@media screen and (max-width: 1050px) {
+  .background-parent {
+    padding-left: 1.625rem;
+    padding-right: 1.75rem;
+    box-sizing: border-box;
+  }
+}
