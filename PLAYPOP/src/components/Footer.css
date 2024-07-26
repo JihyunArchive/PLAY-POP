@@ -1,0 +1,132 @@
+.footer-links {
+  align-self: stretch;
+  height: 0.188rem;
+  position: relative;
+  border-top: 3px solid rgba(129, 129, 129, 0.36);
+  box-sizing: border-box;
+}
+.div47 {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.link-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.062rem 0 0;
+}
+.expand-right-icon {
+  height: 1.875rem;
+  width: 1.875rem;
+  position: relative;
+}
+.link-items-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 1.25rem;
+}
+.footer-links1,
+.footer-links2 {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.footer-links1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 1.625rem 0.312rem 1.875rem;
+  max-width: 100%;
+}
+.footer-links2 {
+  height: 0.188rem;
+  position: relative;
+  border-top: 3px solid rgba(129, 129, 129, 0.36);
+}
+.sns {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  min-width: 5.688rem;
+}
+.sns-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.25rem 0 0;
+}
+.expand-right-icon1 {
+  height: 1.875rem;
+  width: 1.875rem;
+  position: relative;
+}
+.frame-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 1.25rem;
+}
+.footer-links3,
+.footer-links4 {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.footer-links3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 1.625rem 0.437rem 1.875rem;
+  max-width: 100%;
+}
+.footer-links4 {
+  height: 0.188rem;
+  position: relative;
+  border-top: 3px solid rgba(129, 129, 129, 0.36);
+}
+.footer,
+.footer-content {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.footer-content {
+  width: 72.375rem;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.687rem;
+}
+.footer {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 4.937rem;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 0.938rem;
+  color: #959595;
+  font-family: "Noto Sans KR";
+}
+@media screen and (max-width: 1250px) {
+  .footer {
+    padding-left: 2.438rem;
+    padding-right: 2.438rem;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frame-parent,
+  .link-items-parent {
+    flex-wrap: wrap;
+  }
+}

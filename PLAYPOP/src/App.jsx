@@ -1,35 +1,50 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import React from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Test from './pages/Test/TestPage'
+import Main from './pages/Test/MainPage'
+import PopUpPage from './pages/PopUpPage/PopUpPage'
+import Customer from './pages/Customer/Customer'
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/test" element={<Test/>}/>
+        <Route path="/main" element={<Main/>}/>
+        <Route path="/popuppage" element={<PopUpPage/>}/>
+        <Route path="/customer" element={<Customer/>}/>
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
+
+
+
+
+
+
+
+
+
+
+/*1. 페이지 생성하기
+import React from 'react';
+
+
+function 임의로 지정한 이름(){
+    return(
+        <div>
+            hello
+        </div>
+    );
+}
+export default 임의로 지정한 이름;
+
+2. App.jsx에 와서 import문 추가
+import 임의로 지정한 이름 from '생성한 페이지의 상대경로'
+
+3. App.jsx Route태그 추가
+<Route path="/로컬호스트 뒤에 올 사이트 주소" element={<임의로 지정한 이름/>}/>
+*/
